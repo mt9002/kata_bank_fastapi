@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "kata_bank_fastapi"
+version = "0.1.0"
+description = ""
+authors = []
+readme = "README.md"
+packages = [{ include = "app" }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.133.0"
+uvicorn = "^0.30.5"
+psycopg2-binary = "^2.9.10"
+logfire = "^3.23.0"
+pydantic-settings = "^2.10.1"
+alembic = "^1.18.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
